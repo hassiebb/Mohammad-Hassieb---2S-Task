@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+package-lock.json.bak
+
+# Expo & Metro
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.metro-health-check*
+
+# Environment & Secrets
+.env
+.env*.local
+!.env.example
+
+# Native Builds & Signing
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+/ios/
+/android/
+
+# Testing & Coverage
+coverage/
+*.lcov
+
+# Logs & Temporary Files
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+scratch/
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.tsbuildinfo
+example/
